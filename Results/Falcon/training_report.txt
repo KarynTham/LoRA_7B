@@ -1,0 +1,79 @@
+======================================================================
+TRAINING REPORT: falcon-7b
+======================================================================
+
+MODEL INFORMATION
+----------------------------------------------------------------------
+Model Path: tiiuae/falcon-7b-instruct
+Model Name: falcon-7b
+Quantization: 4-bit
+Model Vocab Size: 65,024
+Tokenizer Vocab Size: 65,024
+Hidden Size: 4544
+Number of Layers: 32
+Attention Heads: 71
+
+TRAINABLE PARAMETERS
+----------------------------------------------------------------------
+Trainable params: 295,768,960
+All params: 3,608,744,832
+Trainable %: 8.1959%
+Frozen params: 3,312,975,872
+
+TRAINING OVERVIEW
+----------------------------------------------------------------------
+Training Time: 2.33h
+Total Steps: 149
+Tokens/Second: 145.56
+Samples/Second: 0.02
+
+LOSS METRICS
+----------------------------------------------------------------------
+Final Train Loss: 0.7219
+Final Eval Loss: 1.0020
+Train-Val Gap: 0.2801 (38.79%)
+Overfitting: Yes
+
+CONVERGENCE
+----------------------------------------------------------------------
+Converged: Yes
+Recent Improvement Rate: -2.12%
+Recent Loss Std: 0.0148
+
+GRADIENT STABILITY
+----------------------------------------------------------------------
+Mean Gradient Norm: 0.7664
+Std Gradient Norm: 0.1448
+Stability Score: 0.1890
+
+LORA CONFIGURATION
+----------------------------------------------------------------------
+Rank (r): 16
+Alpha: 32
+Dropout: 0.05
+Target Modules: query_key_value, dense, dense_h_to_4h, dense_4h_to_h
+
+LoRA Update Statistics:
+  Mean Magnitude: 2.618416
+  Max Magnitude: 4.725677
+  Min Magnitude: 0.831468
+
+DATASET INFORMATION
+----------------------------------------------------------------------
+Train Size: 7773
+Eval Size: 864
+Batch Size (effective): 16
+Sequence Length: 512
+
+GPU METRICS
+----------------------------------------------------------------------
+Peak VRAM: 8.66 GB
+Mean VRAM: 8.66 GB
+
+STABILITY
+----------------------------------------------------------------------
+NaN Detected: No
+Divergence Detected: No
+Training Stable: Yes
+
+======================================================================

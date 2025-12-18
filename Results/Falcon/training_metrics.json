@@ -1,0 +1,2429 @@
+{
+  "model_name": "falcon-7b",
+  "training_time_seconds": 8385.36399435997,
+  "training_time_formatted": "2.33h",
+  "loss_curve": {
+    "train_losses": [
+      1.7088,
+      1.8088,
+      1.6932,
+      1.5817,
+      1.4746,
+      1.448,
+      1.3127,
+      1.3229,
+      1.2995,
+      1.3038,
+      1.2646,
+      1.272,
+      1.2437,
+      1.2275,
+      1.1928,
+      1.1564,
+      1.1893,
+      1.143,
+      1.174,
+      1.1343,
+      1.1443,
+      1.122,
+      1.1141,
+      1.1268,
+      1.144,
+      1.0819,
+      1.1541,
+      1.0986,
+      1.1389,
+      1.1163,
+      1.1117,
+      1.1465,
+      1.0958,
+      1.0794,
+      1.1164,
+      1.0906,
+      1.0637,
+      1.0853,
+      1.0448,
+      1.0599,
+      1.036,
+      1.0754,
+      1.0257,
+      1.0958,
+      1.0443,
+      1.0561,
+      1.0398,
+      1.0394,
+      1.0507,
+      1.0153,
+      0.9502,
+      0.8831,
+      0.919,
+      0.9043,
+      0.9091,
+      0.9145,
+      0.8926,
+      0.9571,
+      0.915,
+      0.9094,
+      0.9091,
+      0.923,
+      0.9337,
+      0.9178,
+      0.941,
+      0.9192,
+      0.908,
+      0.8846,
+      0.9152,
+      0.8904,
+      0.9093,
+      0.9126,
+      0.9033,
+      0.903,
+      0.89,
+      0.9281,
+      0.9011,
+      0.9028,
+      0.9206,
+      0.8914,
+      0.886,
+      0.8932,
+      0.9074,
+      0.9073,
+      0.8473,
+      0.8887,
+      0.8665,
+      0.8937,
+      0.9119,
+      0.8772,
+      0.8406,
+      0.8959,
+      0.8614,
+      0.9297,
+      0.825,
+      0.8973,
+      0.8754,
+      0.8313,
+      0.7864,
+      0.7779,
+      0.7222,
+      0.7458,
+      0.7405,
+      0.7273,
+      0.7168,
+      0.7194,
+      0.7621,
+      0.6984,
+      0.6853,
+      0.7098,
+      0.6961,
+      0.727,
+      0.715,
+      0.7281,
+      0.7234,
+      0.7274,
+      0.7537,
+      0.7602,
+      0.7297,
+      0.7086,
+      0.7309,
+      0.712,
+      0.7077,
+      0.7417,
+      0.7504,
+      0.7346,
+      0.6978,
+      0.7115,
+      0.7146,
+      0.7373,
+      0.7126,
+      0.7171,
+      0.7052,
+      0.724,
+      0.6972,
+      0.7275,
+      0.759,
+      0.7198,
+      0.7365,
+      0.7177,
+      0.7257,
+      0.7517,
+      0.7093,
+      0.7324,
+      0.7225,
+      0.7219
+    ],
+    "eval_losses": [
+      1.0431318283081055,
+      1.0019596815109253
+    ],
+    "steps": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190,
+      200,
+      210,
+      220,
+      230,
+      240,
+      250,
+      260,
+      270,
+      280,
+      290,
+      300,
+      310,
+      320,
+      330,
+      340,
+      350,
+      360,
+      370,
+      380,
+      390,
+      400,
+      410,
+      420,
+      430,
+      440,
+      450,
+      460,
+      470,
+      480,
+      490,
+      500,
+      500,
+      510,
+      520,
+      530,
+      540,
+      550,
+      560,
+      570,
+      580,
+      590,
+      600,
+      610,
+      620,
+      630,
+      640,
+      650,
+      660,
+      670,
+      680,
+      690,
+      700,
+      710,
+      720,
+      730,
+      740,
+      750,
+      760,
+      770,
+      780,
+      790,
+      800,
+      810,
+      820,
+      830,
+      840,
+      850,
+      860,
+      870,
+      880,
+      890,
+      900,
+      910,
+      920,
+      930,
+      940,
+      950,
+      960,
+      970,
+      980,
+      990,
+      1000,
+      1000,
+      1010,
+      1020,
+      1030,
+      1040,
+      1050,
+      1060,
+      1070,
+      1080,
+      1090,
+      1100,
+      1110,
+      1120,
+      1130,
+      1140,
+      1150,
+      1160,
+      1170,
+      1180,
+      1190,
+      1200,
+      1210,
+      1220,
+      1230,
+      1240,
+      1250,
+      1260,
+      1270,
+      1280,
+      1290,
+      1300,
+      1310,
+      1320,
+      1330,
+      1340,
+      1350,
+      1360,
+      1370,
+      1380,
+      1390,
+      1400,
+      1410,
+      1420,
+      1430,
+      1440,
+      1450,
+      1458
+    ]
+  },
+  "convergence": {
+    "converged": true,
+    "improvement_rate": -0.021232224834844788,
+    "recent_std": 0.014774454304643542,
+    "recent_mean": 0.72965
+  },
+  "gradient_stability": {
+    "mean": 0.7664050053652018,
+    "std": 0.14481561423936018,
+    "max": 1.0945930480957031,
+    "min": 0.1899355947971344,
+    "stability_score": 0.18895441879428942
+  },
+  "train_val_gap": {
+    "absolute_gap": 0.2800596815109253,
+    "relative_gap": 0.3879480281353724,
+    "final_train_loss": 0.7219,
+    "final_eval_loss": 1.0019596815109253,
+    "overfitting": true
+  },
+  "lora_config": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "query_key_value",
+      "dense",
+      "dense_h_to_4h",
+      "dense_4h_to_h"
+    ]
+  },
+  "lora_updates": {
+    "layers": [
+      {
+        "layer": "base_model.model.transformer.h.0.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.8370118141174316,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.0.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.606627106666565,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.0.self_attention.dense.lora_A.default.weight",
+        "magnitude": 2.8606436252593994,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.0.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.228574514389038,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.0.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.257930278778076,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.0.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.309553384780884,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.0.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.7654025554656982,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.0.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.0766923427581787,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.1.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.840663433074951,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.1.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.4646100997924805,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.1.self_attention.dense.lora_A.default.weight",
+        "magnitude": 2.9925577640533447,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.1.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.291131615638733,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.1.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.234042167663574,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.1.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.0905630588531494,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.1.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 4.226629257202148,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.1.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.197056770324707,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.2.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.89509654045105,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.2.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.5127921104431152,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.2.self_attention.dense.lora_A.default.weight",
+        "magnitude": 2.8446600437164307,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.2.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.1639552116394043,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.2.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.367272138595581,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.2.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 2.9975550174713135,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.2.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.657789707183838,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.2.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9306243658065796,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.3.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.892024517059326,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.3.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.5180323123931885,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.3.self_attention.dense.lora_A.default.weight",
+        "magnitude": 2.864305257797241,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.3.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.2186834812164307,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.3.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.3236336708068848,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.3.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.024770736694336,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.3.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 4.725676536560059,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.3.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.0688661336898804,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.4.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.979872941970825,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.4.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.6016765832901,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.4.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.1918089389801025,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.4.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.4564552307128906,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.4.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.4161391258239746,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.4.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.0774924755096436,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.4.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 4.315394401550293,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.4.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.1204025745391846,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.5.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.9551987648010254,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.5.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.5060548782348633,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.5.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.059462547302246,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.5.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.459564208984375,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.5.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.2715320587158203,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.5.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 2.863809823989868,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.5.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.5221903324127197,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.5.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8744183778762817,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.6.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.952622175216675,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.6.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.4847851991653442,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.6.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.0995101928710938,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.6.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.3349320888519287,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.6.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.5115725994110107,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.6.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.1857376098632812,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.6.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.563554286956787,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.6.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8554454445838928,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.7.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.8963069915771484,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.7.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.431664228439331,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.7.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.1694552898406982,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.7.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.4309501647949219,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.7.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.244722366333008,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.7.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 2.9546427726745605,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.7.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.477712631225586,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.7.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9388402700424194,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.8.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.983217239379883,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.8.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.5755844116210938,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.8.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.32915997505188,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.8.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.5240726470947266,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.8.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.3834545612335205,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.8.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.06740665435791,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.8.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.3470118045806885,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.8.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8905987739562988,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.9.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.034210681915283,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.9.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.664231300354004,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.9.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.5606307983398438,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.9.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.7026727199554443,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.9.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.3988373279571533,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.9.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.0686938762664795,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.9.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.466236114501953,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.9.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.90505051612854,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.10.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.0411787033081055,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.10.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.6342313289642334,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.10.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.359799385070801,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.10.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.5501981973648071,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.10.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.315480947494507,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.10.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 2.8422229290008545,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.10.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.2714521884918213,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.10.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8433846831321716,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.11.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.0086135864257812,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.11.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.4764918088912964,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.11.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.4438390731811523,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.11.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.6435456275939941,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.11.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.4305949211120605,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.11.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.143237590789795,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.11.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.3382976055145264,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.11.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8787270784378052,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.12.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 2.9988765716552734,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.12.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.609153389930725,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.12.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.205909013748169,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.12.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.4346505403518677,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.12.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.385371685028076,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.12.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 2.9017763137817383,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.12.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.3607003688812256,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.12.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8771833777427673,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.13.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.067945957183838,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.13.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.6721729040145874,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.13.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.5439417362213135,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.13.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.812430500984192,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.13.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.2690272331237793,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.13.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 2.799276828765869,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.13.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.170710802078247,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.13.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8314680457115173,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.14.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.0472569465637207,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.14.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.6548415422439575,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.14.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.294194459915161,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.14.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.5904818773269653,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.14.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.6078786849975586,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.14.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.227323293685913,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.14.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.3686251640319824,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.14.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8988149762153625,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.15.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.0853450298309326,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.15.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7798324823379517,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.15.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.3302719593048096,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.15.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.5749698877334595,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.15.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.421675682067871,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.15.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 2.8653292655944824,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.15.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.3544070720672607,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.15.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9236618280410767,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.16.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.0616986751556396,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.16.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.5842663049697876,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.16.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.4728407859802246,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.16.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.6671441793441772,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.16.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.53839111328125,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.16.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.0050430297851562,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.16.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.348313093185425,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.16.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9431843757629395,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.17.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.0314676761627197,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.17.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.4926469326019287,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.17.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.5480797290802,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.17.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.73872709274292,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.17.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.5895493030548096,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.17.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 2.950068712234497,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.17.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.3871705532073975,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.17.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.8895447254180908,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.18.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.1874072551727295,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.18.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7734272480010986,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.18.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.389669179916382,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.18.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.6624891757965088,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.18.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 4.027674674987793,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.18.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.407402276992798,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.18.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.5599558353424072,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.18.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9343255758285522,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.19.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.1747894287109375,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.19.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7058053016662598,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.19.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.430128812789917,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.19.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.650167465209961,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.19.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.782181978225708,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.19.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.152209997177124,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.19.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.588667154312134,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.19.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9541386365890503,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.20.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.221231698989868,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.20.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7466411590576172,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.20.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.51176118850708,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.20.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.67729651927948,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.20.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.765619993209839,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.20.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.066972494125366,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.20.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.556617259979248,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.20.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9354501962661743,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.21.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.112204074859619,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.21.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7177025079727173,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.21.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.6321749687194824,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.21.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.7433565855026245,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.21.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 4.018109321594238,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.21.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.4307658672332764,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.21.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.6101267337799072,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.21.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9538952112197876,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.22.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.175875186920166,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.22.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7645797729492188,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.22.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.671717405319214,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.22.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.8176300525665283,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.22.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 4.072972297668457,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.22.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.303306818008423,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.22.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.7786450386047363,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.22.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.0181196928024292,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.23.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.130373239517212,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.23.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7001209259033203,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.23.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.6481637954711914,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.23.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.8241016864776611,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.23.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 4.043380260467529,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.23.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.379703998565674,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.23.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.753770351409912,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.23.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.0216506719589233,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.24.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.1217613220214844,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.24.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.676780104637146,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.24.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.529902696609497,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.24.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.6678239107131958,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.24.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 4.025707244873047,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.24.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.2876510620117188,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.24.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.786593437194824,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.24.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.0377684831619263,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.25.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.1255481243133545,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.25.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.693602204322815,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.25.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.229123115539551,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.25.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.482702612876892,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.25.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 4.14080286026001,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.25.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.44584584236145,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.25.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.7097010612487793,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.25.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9742543697357178,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.26.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.1953465938568115,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.26.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7292370796203613,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.26.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.581247329711914,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.26.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.6534703969955444,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.26.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.9970974922180176,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.26.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.268840789794922,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.26.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.5705032348632812,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.26.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 0.9321162700653076,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.27.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.0683326721191406,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.27.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.717490315437317,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.27.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.257746696472168,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.27.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.6055936813354492,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.27.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 4.18100118637085,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.27.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.4778740406036377,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.27.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.769178867340088,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.27.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.0274319648742676,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.28.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.2396187782287598,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.28.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.6994013786315918,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.28.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.3151776790618896,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.28.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.4355738162994385,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.28.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.9109652042388916,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.28.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.19071888923645,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.28.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.713611125946045,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.28.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.0346890687942505,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.29.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.1549994945526123,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.29.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.7637717723846436,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.29.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.6308014392852783,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.29.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.8864740133285522,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.29.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.778230667114258,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.29.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.1731042861938477,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.29.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.874438762664795,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.29.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.0924803018569946,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.30.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.1408188343048096,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.30.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.707704782485962,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.30.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.0245580673217773,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.30.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.3370331525802612,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.30.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.6438546180725098,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.30.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.212092638015747,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.30.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.948636770248413,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.30.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.2062593698501587,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.31.self_attention.query_key_value.lora_A.default.weight",
+        "magnitude": 3.309624671936035,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.31.self_attention.query_key_value.lora_B.default.weight",
+        "magnitude": 1.9231499433517456,
+        "shape": [
+          4672,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.31.self_attention.dense.lora_A.default.weight",
+        "magnitude": 3.004887104034424,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.31.self_attention.dense.lora_B.default.weight",
+        "magnitude": 1.4546644687652588,
+        "shape": [
+          4544,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.31.mlp.dense_h_to_4h.lora_A.default.weight",
+        "magnitude": 3.3992762565612793,
+        "shape": [
+          16,
+          4544
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.31.mlp.dense_h_to_4h.lora_B.default.weight",
+        "magnitude": 3.518573760986328,
+        "shape": [
+          18176,
+          16
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.31.mlp.dense_4h_to_h.lora_A.default.weight",
+        "magnitude": 3.6106905937194824,
+        "shape": [
+          16,
+          18176
+        ]
+      },
+      {
+        "layer": "base_model.model.transformer.h.31.mlp.dense_4h_to_h.lora_B.default.weight",
+        "magnitude": 1.000710368156433,
+        "shape": [
+          4544,
+          16
+        ]
+      }
+    ],
+    "mean_magnitude": 2.618416046956554,
+    "max_magnitude": 4.725676536560059,
+    "min_magnitude": 0.8314680457115173
+  },
+  "gpu_vram": {
+    "peak_gb": 8.663376384,
+    "mean_gb": 8.663357345536353
+  },
+  "throughput": {
+    "tokens_per_second": 145.5641044110889,
+    "samples_per_second": 0.01776905571424425,
+    "mean_step_time": 5.6050700116059415
+  },
+  "stability": {
+    "nan_detected": false,
+    "divergence_detected": false,
+    "training_stable": true
+  },
+  "dataset_stats": {
+    "train_size": 7773,
+    "eval_size": 864,
+    "batch_size": 16,
+    "seq_length": 512
+  },
+  "model_config": {
+    "model_path": "tiiuae/falcon-7b-instruct",
+    "model_name": "falcon-7b",
+    "quantization": "4-bit",
+    "vocab_size": 65024,
+    "tokenizer_vocab_size": 65024,
+    "hidden_size": 4544,
+    "num_layers": 32,
+    "num_attention_heads": 71,
+    "trainable_params": 295768960,
+    "all_params": 3608744832,
+    "trainable_percent": 8.195895630450604
+  }
+}
