@@ -1,0 +1,79 @@
+======================================================================
+TRAINING REPORT: mistral-7b
+======================================================================
+
+MODEL INFORMATION
+----------------------------------------------------------------------
+Model Path: mistralai/Mistral-7B-Instruct-v0.2
+Model Name: mistral-7b
+Quantization: 4-bit
+Model Vocab Size: 32,000
+Tokenizer Vocab Size: 32,000
+Hidden Size: 4096
+Number of Layers: 32
+Attention Heads: 32
+
+TRAINABLE PARAMETERS
+----------------------------------------------------------------------
+Trainable params: 262,410,240
+All params: 3,752,071,168
+Trainable %: 6.9937%
+Frozen params: 3,489,660,928
+
+TRAINING OVERVIEW
+----------------------------------------------------------------------
+Training Time: 4.36h
+Total Steps: 149
+Tokens/Second: 155.44
+Samples/Second: 0.01
+
+LOSS METRICS
+----------------------------------------------------------------------
+Final Train Loss: 0.2933
+Final Eval Loss: 0.8235
+Train-Val Gap: 0.5302 (180.78%)
+Overfitting: Yes
+
+CONVERGENCE
+----------------------------------------------------------------------
+Converged: No
+Recent Improvement Rate: 1.03%
+Recent Loss Std: 0.0068
+
+GRADIENT STABILITY
+----------------------------------------------------------------------
+Mean Gradient Norm: 1.1868
+Std Gradient Norm: 0.3545
+Stability Score: 0.2987
+
+LORA CONFIGURATION
+----------------------------------------------------------------------
+Rank (r): 16
+Alpha: 32
+Dropout: 0.1
+Target Modules: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
+
+LoRA Update Statistics:
+  Mean Magnitude: 1.843996
+  Max Magnitude: 9.727164
+  Min Magnitude: 0.273485
+
+DATASET INFORMATION
+----------------------------------------------------------------------
+Train Size: 7773
+Eval Size: 864
+Batch Size (effective): 16
+Sequence Length: 1024
+
+GPU METRICS
+----------------------------------------------------------------------
+Peak VRAM: 9.61 GB
+Mean VRAM: 9.61 GB
+
+STABILITY
+----------------------------------------------------------------------
+NaN Detected: No
+Divergence Detected: No
+Training Stable: Yes
+
+======================================================================
