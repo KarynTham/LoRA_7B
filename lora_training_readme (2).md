@@ -410,11 +410,8 @@ lora_adapter = "KraveTech/Granite7B_LoRA"
 ├── train_models.py           # Training script for all models
 ├── inference_lora_csv.py     # Batch inference from CSV
 ├── README.md                 # This file
-├── data/
-│   ├── train.jsonl          # Training data (JSONL format)
-│   └── questions.csv        # Inference questions
-└── outputs/
-    └── responses.csv        # Inference results
+└── data/
+│   └── train.jsonl           # Training data (JSONL format)
 ```
 
 ## Requirements
@@ -438,10 +435,10 @@ Please refer to the individual model licenses on Hugging Face for usage terms.
 If you use these LoRA adapters, please cite the original model papers and the PEFT library:
 
 ```bibtex
-@article{hu2021lora,
-  title={LoRA: Low-Rank Adaptation of Large Language Models},
-  author={Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
-  journal={arXiv preprint arXiv:2106.09685},
-  year={2021}
+@article{tham2025lora7b,
+  title={Understanding LoRA Fine-Tuning Behavior Across Heterogeneous 7B LLM Architectures},
+  author={Tham Hiu Huen, Kathleen Tan Swee Neo, Lim Tong Ming},
+  journal={To be confirm},
+  year={2025}
 }
 ```
