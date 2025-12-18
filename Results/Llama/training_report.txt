@@ -1,0 +1,79 @@
+======================================================================
+TRAINING REPORT: llama2-7b
+======================================================================
+
+MODEL INFORMATION
+----------------------------------------------------------------------
+Model Path: meta-llama/Llama-2-7b-chat-hf
+Model Name: llama2-7b
+Quantization: 4-bit
+Model Vocab Size: 32,000
+Tokenizer Vocab Size: 32,000
+Hidden Size: 4096
+Number of Layers: 32
+Attention Heads: 32
+
+TRAINABLE PARAMETERS
+----------------------------------------------------------------------
+Trainable params: 262,410,240
+All params: 3,500,412,928
+Trainable %: 7.4966%
+Frozen params: 3,238,002,688
+
+TRAINING OVERVIEW
+----------------------------------------------------------------------
+Training Time: 1.88h
+Total Steps: 149
+Tokens/Second: 179.96
+Samples/Second: 0.02
+
+LOSS METRICS
+----------------------------------------------------------------------
+Final Train Loss: 0.4860
+Final Eval Loss: 0.7663
+Train-Val Gap: 0.2803 (57.67%)
+Overfitting: Yes
+
+CONVERGENCE
+----------------------------------------------------------------------
+Converged: Yes
+Recent Improvement Rate: -0.75%
+Recent Loss Std: 0.0100
+
+GRADIENT STABILITY
+----------------------------------------------------------------------
+Mean Gradient Norm: 0.4989
+Std Gradient Norm: 0.1272
+Stability Score: 0.2549
+
+LORA CONFIGURATION
+----------------------------------------------------------------------
+Rank (r): 16
+Alpha: 32
+Dropout: 0.05
+Target Modules: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
+
+LoRA Update Statistics:
+  Mean Magnitude: 2.435258
+  Max Magnitude: 14.237815
+  Min Magnitude: 0.664694
+
+DATASET INFORMATION
+----------------------------------------------------------------------
+Train Size: 7773
+Eval Size: 864
+Batch Size (effective): 16
+Sequence Length: 512
+
+GPU METRICS
+----------------------------------------------------------------------
+Peak VRAM: 7.25 GB
+Mean VRAM: 7.25 GB
+
+STABILITY
+----------------------------------------------------------------------
+NaN Detected: No
+Divergence Detected: No
+Training Stable: Yes
+
+======================================================================
