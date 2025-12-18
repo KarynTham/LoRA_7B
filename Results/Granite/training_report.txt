@@ -1,0 +1,80 @@
+======================================================================
+TRAINING REPORT: granite-7b
+======================================================================
+
+MODEL INFORMATION
+----------------------------------------------------------------------
+Model Path: ibm-granite/granite-7b-instruct
+Model Name: granite-7b
+Quantization: 4-bit
+Model Vocab Size: 32,008
+Tokenizer Vocab Size: 32,005
+  ⚠ Mismatch: 3 tokens difference
+Hidden Size: 4096
+Number of Layers: 32
+Attention Heads: 32
+
+TRAINABLE PARAMETERS
+----------------------------------------------------------------------
+Trainable params: 262,475,776
+All params: 3,500,478,464
+Trainable %: 7.4983%
+Frozen params: 3,238,002,688
+
+TRAINING OVERVIEW
+----------------------------------------------------------------------
+Training Time: 4.19h
+Total Steps: 149
+Tokens/Second: 161.65
+Samples/Second: 0.01
+
+LOSS METRICS
+----------------------------------------------------------------------
+Final Train Loss: 0.5279
+Final Eval Loss: 0.6358
+Train-Val Gap: 0.1079 (20.45%)
+Overfitting: Yes
+
+CONVERGENCE
+----------------------------------------------------------------------
+Converged: Yes
+Recent Improvement Rate: 0.20%
+Recent Loss Std: 0.0177
+
+GRADIENT STABILITY
+----------------------------------------------------------------------
+Mean Gradient Norm: nan
+Std Gradient Norm: nan
+Stability Score: nan
+
+LORA CONFIGURATION
+----------------------------------------------------------------------
+Rank (r): 16
+Alpha: 32
+Dropout: 0.1
+Target Modules: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj
+
+LoRA Update Statistics:
+  Mean Magnitude: 2.414780
+  Max Magnitude: 10.902389
+  Min Magnitude: 0.412701
+
+DATASET INFORMATION
+----------------------------------------------------------------------
+Train Size: 7773
+Eval Size: 864
+Batch Size (effective): 16
+Sequence Length: 1024
+
+GPU METRICS
+----------------------------------------------------------------------
+Peak VRAM: 9.68 GB
+Mean VRAM: 9.68 GB
+
+STABILITY
+----------------------------------------------------------------------
+NaN Detected: No
+Divergence Detected: No
+Training Stable: Yes
+
+======================================================================
