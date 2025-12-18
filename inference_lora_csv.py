@@ -18,31 +18,31 @@ MODELS = [
         "lora_adapter": "./lora-models/gemma-7b",
         "name": "gemma_7b_lora"
     },
-    # {
-    #     "base_model": "tiiuae/falcon-7b-instruct",
-    #     "lora_adapter": "./lora-models/falcon-7b",
-    #     "name": "falcon_7b_lora"
-    # },
-    # {
-    #     "base_model": "meta-llama/Llama-2-7b-chat-hf",
-    #     "lora_adapter": "./lora-models/llama2-7b",
-    #     "name": "llama2_7b_lora"
-    # },
-    # {
-    #     "base_model": "Qwen/Qwen2.5-7B-Instruct",
-    #     "lora_adapter": "./lora-models/qwen-7b",
-    #     "name": "qwen_7b_lora"
-    # },
-    # {
-    #     "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
-    #     "lora_adapter": "./lora-models/mistral-7b",
-    #     "name": "mistral_7b_lora"
-    # },
-    # {
-    #     "base_model": "ibm-granite/granite-7b-instruct",
-    #     "lora_adapter": "./lora-models/granite-7b",
-    #     "name": "granite_7b_lora"
-    # },
+    {
+        "base_model": "tiiuae/falcon-7b-instruct",
+        "lora_adapter": "./lora-models/falcon-7b",
+        "name": "falcon_7b_lora"
+    },
+    {
+        "base_model": "meta-llama/Llama-2-7b-chat-hf",
+        "lora_adapter": "./lora-models/llama2-7b",
+        "name": "llama2_7b_lora"
+    },
+    {
+        "base_model": "Qwen/Qwen2.5-7B-Instruct",
+        "lora_adapter": "./lora-models/qwen-7b",
+        "name": "qwen_7b_lora"
+    },
+    {
+        "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+        "lora_adapter": "./lora-models/mistral-7b",
+        "name": "mistral_7b_lora"
+    },
+    {
+        "base_model": "ibm-granite/granite-7b-instruct",
+        "lora_adapter": "./lora-models/granite-7b",
+        "name": "granite_7b_lora"
+    },
 ]
 
 
