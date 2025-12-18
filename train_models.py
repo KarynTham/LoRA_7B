@@ -70,7 +70,7 @@ CONFIG = {
     # "train_mode": "all"  # Train all models at once
     # "train_mode": ["gemma-7b", "llama2-7b"]  # Train only specific models
     # "train_mode": "sequential"  # Same as "all" but more explicit
-    "train_mode": ["gemma-7b", "mistral-7b"],
+    "train_mode": "all",
     
     # Skip models that already have training_metrics.json (useful for resume)
     "skip_completed": False,
