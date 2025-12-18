@@ -190,10 +190,7 @@ lora_adapter = "KraveTech/Granite7B_LoRA"
 ├── inference_lora_csv.py     # Batch inference from CSV
 ├── README.md                 # This file
 ├── data/
-│   ├── train.jsonl          # Training data (JSONL format)
-│   └── questions.csv        # Inference questions
-└── outputs/
-    └── responses.csv        # Inference results
+│   └── train.jsonl          # Training data (JSONL format)
 ```
 
 ## Requirements
